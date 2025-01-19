@@ -1,0 +1,88 @@
+@media (max-width: 1070px) {
+  header h1 {
+      font-size: 1.5rem;
+  }
+  header nav ul {
+      flex-direction: column;
+      text-align: center;
+  }
+  header nav ul li {
+      margin: 10px 0;
+  }
+  header input{
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .logo{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  header img{
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .banner h2 {
+      font-size: 1.8rem;
+  }
+  .banner p {
+      font-size: 0.9rem;
+  }
+  .contact form input, .contact form textarea {
+      font-size: 0.9rem;
+  }
+  .contact form button {
+      font-size: 1rem;
+  }
+}
+
+/* For devices with max width of 480px */
+@media (max-width: 480px) {
+  header h1 {
+      font-size: 1.2rem;
+  }
+  header input{
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .logo{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  header img{
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .banner {
+      padding: 50px 10px;
+  }
+  .banner h2 {
+      font-size: 1.5rem;
+  }
+  .banner p {
+      font-size: 0.8rem;
+  }
+  .services .category {
+      width: 100%;
+      margin-bottom: 15px;
+  }
+  .contact form input, .contact form textarea {
+      font-size: 0.8rem;
+  }
+  .contact form button {
+      font-size: 0.9rem;
+  }
+}
